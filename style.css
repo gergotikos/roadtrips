@@ -1,0 +1,51 @@
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(13, 75, 13);
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 800;
+    margin: 20px;
+    font-size: large;
+}
+main{
+    margin-top: 80px;
+}
+h1{
+    display: block;
+    text-align: center;
+}
+p{
+    display: block;
+    text-align: left;
+    width: 650px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+#masodik{
+    margin-top: 10px;
+}
+#galeria{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 2;
+    flex-wrap: wrap;
+}
+img{
+    height: 230px;
+    margin: 10px;
+}
+#labjegyzet{
+    background-color: lightgrey;
+    padding: 20px 20px;
+    margin-top: 20px;
+    text-align: center;
+}

@@ -1,0 +1,84 @@
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(13, 75, 13);
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 800;
+    margin: 20px;
+    font-size: large;
+}
+main{
+    margin-top: 80px;
+}
+#teteje{
+    text-align: center;
+}
+h1{
+    display: block;
+    text-align: center;
+}
+p{
+    display: block;
+    text-align: left;
+    width: 650px;
+    margin: 0 auto;
+}
+#ledont{
+    font-weight: 900;
+}
+#kep{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 650px;
+    margin-bottom: 10px;
+}
+h2{
+    background-color: rgb(13, 75, 13);
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+section{
+    text-align: center;
+    width: 650px;
+    margin: 0 auto;
+}
+#leiras{
+    text-align: left;
+    line-height: 1.5;
+}
+button{
+    background-color: white;
+    border: 3px solid rgb(13, 75, 13);
+    padding: 10px;
+    color: rgb(13, 75, 13);
+    font-weight: 900;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(13, 75, 13);
+    border: 3px solid white;
+    padding: 10px;
+    color: white;
+    font-weight: 900;
+    border-radius: 10px;
+}
+#labjegyzet{
+    background-color: lightgrey;
+    padding: 20px 20px;
+    margin-top: 20px;
+    text-align: center;
+}
